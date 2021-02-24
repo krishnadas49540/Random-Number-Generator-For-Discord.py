@@ -4,7 +4,7 @@ import asyncio
 from discord.ext import commands
 prefix = "?"
 bot = commands.Bot(command_prefix = prefix)
-token = 'NzIyMjY2OTM5NzQ5MTcxMjMx.Xuh0ig.GWiHYMesyUFkCE2Y5ZFnAwE8QtI'
+token = 'put bot token here'
 @bot.event
 async def on_ready():
     print("The bot is ready!")
